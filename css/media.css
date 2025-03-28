@@ -1,0 +1,112 @@
+@media (max-width: 744px) {
+    .card {
+        margin: 0 8px;
+    }
+
+    .card-row__title {
+        display: none;
+    }
+
+    .card__roi {
+        display: inline;
+    }
+
+    .card-row {
+        font-weight: 400;
+    }
+
+    .card-row.roi {
+        color: #000000CC;
+    }
+
+    .card-row.profit {
+        position: absolute;
+        right: 0;
+        font-weight: 600;
+    }
+
+    .card__info {
+        position: relative;
+        align-items: flex-end;
+        padding-bottom: 16px;
+    }
+
+    .card__detail {
+        height: auto;
+        gap: 4px;
+        position: absolute;
+        top: 16px;
+        left: 44px;
+        width: calc(100% - 44px);
+    }
+
+    .card__last-stat {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .card-col {
+        min-width: auto;
+    }
+
+    .card__button {
+        margin-left: 0;
+        margin-top: 16px;
+        grid-column: 1 / 4;
+    }
+
+    .card-slash {
+        display: inline;
+    }
+
+    .card__descr {
+        margin-top: 16px;
+    }
+
+    .card__bet {
+        align-items: flex-end;
+    }
+}
+
+@media (max-width: 685px) {
+    .card__descr.show {
+        height: 225px;
+    }
+}
+
+@media (max-width: 650px) {
+    .card__descr.show {
+        height: 250px;
+    }
+}
+
+@media (max-width: 600px) {
+    .card__descr.show {
+        height: 300px;
+    }
+}
+
+@media (max-width: 520px) {
+    .card__descr.show {
+        height: 325px;
+    }
+}
+
+@media (max-width: 470px) {
+    .card__descr.show {
+        height: 350px;
+    }
+}
+
+@media (max-width: 450px) {
+    .card__descr.show {
+        height: 400px;
+    }
+}
+
+@media (max-width: 400px) {
+    .card__descr.show {
+        height: 460px;
+    }
+}

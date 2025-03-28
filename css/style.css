@@ -111,7 +111,7 @@ body {
 }
 
 .card__descr.show {
-    height: 200px;
+    height: 190px;
 }
 
 .card__descr::before {
